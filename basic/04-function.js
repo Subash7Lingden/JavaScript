@@ -13,11 +13,27 @@
 // console.log(greet2("Kristina Maharjan"));
 
 // 3. ARROW function
-const greet3 = (name) => {
-    return `Hello ${name}`;
-}
-console.log(greet3("Subash Lingden"))
-//  arrow function is also know as short function
-const greet4 = name => `Hello, ${name}`;
-console.log(greet4("Anish Maharjan"));
+// const greet3 = (name) => {
+//     return `Hello ${name}`;
+// }
+// console.log(greet3("Subash Lingden"))
+// //  arrow function is also know as short function
+// const greet4 = name => `Hello, ${name}`;
+// console.log(greet4("Anish Maharjan"));
 
+function Multiply(a, b) {
+    console.log(a * b)
+}
+Multiply(5,  6)
+
+// // Using spread operator
+// function addNumbers(...numbers) {
+//     let ans = 0
+//     for (let i = 0; i < numbers.length; i++){
+//         ans = ans + numbers[i]
+//     }
+//     return ans;
+        
+// }
+// let result = addNumbers(10,440, 100, 300, 400)
+// console.log(result)
